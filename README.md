@@ -44,7 +44,7 @@ Download a specimen [here](documentation/FragmentMonoSpecimenDocumentation.pdf).
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-If you want to build fonts manually on your own computer:
+If you want to build fonts manually on your own computer (currently should work with Python 3.10):
 
 * `make build` will produce font files.
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
